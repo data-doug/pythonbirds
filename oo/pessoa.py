@@ -15,3 +15,7 @@ if __name__ == '__main__':
 
     for filho in edson.filhos:
         print(filho.nome)
+
+    edson.sobrenome = "Souza de Almeida"
+    print(douglas.__dict__)
+    print(edson.__dict__)
